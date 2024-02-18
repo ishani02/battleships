@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/kubowania/battleships#readme",
   "dependencies": {
+    "dotenv": "^16.4.4",
+    "errsole": "^1.8.2",
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
   },

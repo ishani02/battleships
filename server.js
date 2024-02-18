@@ -1,11 +1,25 @@
+/**
+ * Insert this Errsole code snippet as the first line of your app's main file
+ */
+const errsole = require('errsole');
+require('dotenv').config()
+errsole.initialize({
+  framework: 'express',
+  token: process.env.ERRSOLE_TOKEN,
+  exitOnException: true,
+  evalExpression: true
+});
+// End of Errsole code snippet
+
 const express = require('express')
 const path = require('path')
 const http = require('http')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5500
 const socketio = require('socket.io')
 const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
+
 
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")))
