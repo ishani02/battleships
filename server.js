@@ -5,7 +5,7 @@ const errsole = require('errsole');
 require('dotenv').config()
 errsole.initialize({
   framework: 'express',
-  token: process.env.ERRSOLE_TOKEN,
+  token: 'fa4475a5-e107-404f-8ba2-24767f759a9f',
   exitOnException: true,
   evalExpression: true
 });
