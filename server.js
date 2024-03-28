@@ -1,8 +1,7 @@
 /**
  * Insert this Errsole code snippet as the first line of your app's main file
  */
-const errsole = require('errsole');
-require('dotenv').config()
+const errsole = require('@errsole/node');
 errsole.initialize({
   framework: 'express',
   token: 'fa4475a5-e107-404f-8ba2-24767f759a9f',
@@ -11,6 +10,7 @@ errsole.initialize({
 });
 // End of Errsole code snippet
 
+require('dotenv').config()
 const express = require('express')
 const path = require('path')
 const http = require('http')
