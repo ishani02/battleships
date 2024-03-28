@@ -4,7 +4,7 @@
 const errsole = require('@errsole/node');
 errsole.initialize({
   framework: 'express',
-  token: '520ad139-725c-477b-b7f5-c147a467b714',
+  token: '7f68c963-b861-4047-b036-5ac60963060a',
   exitOnException: true,
   evalExpression: true
 });
