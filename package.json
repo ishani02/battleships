@@ -20,12 +20,9 @@
   "homepage": "https://github.com/kubowania/battleships#readme",
   "dependencies": {
     "@errsole/node": "^2.0.2",
-    "csv-writer": "^1.6.0",
     "dotenv": "^16.4.4",
-    "errsole": "^1.8.2",
     "express": "^4.17.1",
-    "socket.io": "^2.3.0",
-    "xlsx": "^0.18.5"
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
