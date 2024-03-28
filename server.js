@@ -1,10 +1,10 @@
 /**
  * Insert this Errsole code snippet as the first line of your app's main file
  */
-const errsole = require('@errsole/node);
+const errsole = require('@errsole/node');
 errsole.initialize({
   framework: 'express',
-  token: '7f68c963-b861-4047-b036-5ac60963060a',
+  token: '520ad139-725c-477b-b7f5-c147a467b714',
   exitOnException: true,
   evalExpression: true
 });
